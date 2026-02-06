@@ -14,7 +14,7 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
         name: 'Alex Ra', // Placeholder, user can update
         role: 'Full Stack Developer',
         about: 'Passionate about building scalable web applications and intuitive user experiences.',
-        projects: 'Projects',
+        projects: 'My Projects',
         contact: 'Contact',
         viewProject: 'View Project',
         loading: 'Loading...',
@@ -23,7 +23,7 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
         name: 'Alex Ra', // Placeholder
         role: 'Full Stack Разработчик',
         about: 'Увлечен созданием масштабируемых веб-приложений и интуитивно понятных интерфейсов.',
-        projects: 'Проекты',
+        projects: 'Мои проекты',
         contact: 'Контакты',
         viewProject: 'Подробнее',
         loading: 'Загрузка...',
