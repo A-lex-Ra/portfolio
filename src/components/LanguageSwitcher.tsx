@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { useLanguage } from '@/context/LanguageContext';
 import styles from './LanguageSwitcher.module.css';
 
@@ -27,7 +28,7 @@ const LanguageSwitcher = () => {
     return (
         <button className={styles.container} onClick={toggleLanguage} aria-label="Switch Language">
             <span className={styles.flag}>
-                <img src="/globe.svg" alt="Language" width="20" height="20" />
+                <Image src="/globe.svg" alt="Language" width={20} height={20} priority />
             </span>
             <span className={styles.label}>
                 {language}
