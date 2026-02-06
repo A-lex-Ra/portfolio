@@ -1,0 +1,264 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.backLink:hover {
+  background-color: var(--bg-tertiary);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.imageWrapper {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heroContent h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+}
+
+.description {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.content {
+  margin: 3rem 0;
+  padding: 2rem 0;
+  border-top: 1px solid var(--bg-secondary);
+  border-bottom: 1px solid var(--bg-secondary);
+  line-height: 1.8;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  margin: 2rem 0 1rem 0;
+  color: var(--text-primary);
+}
+
+.content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.content p {
+  margin: 1rem 0;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.content ul,
+.content ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+  color: var(--text-secondary);
+}
+
+.content li {
+  margin: 0.5rem 0;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.content blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid var(--accent-color);
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+}
+
+.content a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  transition: opacity 0.2s ease;
+}
+
+.content a:hover {
+  opacity: 0.8;
+}
+
+.markdown {
+  line-height: 1.8;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  margin: 2rem 0 1rem 0;
+  color: var(--text-primary);
+}
+
+.markdown h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.markdown h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.markdown p {
+  margin: 1rem 0;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.markdown ul,
+.markdown ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+  color: var(--text-secondary);
+}
+
+.markdown li {
+  margin: 0.5rem 0;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.markdown blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid var(--accent-color);
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+}
+
+.markdown a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  transition: opacity 0.2s ease;
+}
+
+.markdown a:hover {
+  opacity: 0.8;
+}
+
+.codeBlock {
+  background-color: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.codeBlock code {
+  font-family: 'Courier New', monospace;
+  color: var(--text-primary);
+}
+
+.inlineCode {
+  background-color: var(--bg-secondary);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+.footer {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 2rem 0;
+}
+
+.externalLink {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: var(--accent-color);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.externalLink:hover {
+  opacity: 0.9;
+}
