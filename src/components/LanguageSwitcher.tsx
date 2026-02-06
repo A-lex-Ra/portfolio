@@ -28,7 +28,7 @@ const LanguageSwitcher = () => {
     return (
         <button className={styles.container} onClick={toggleLanguage} aria-label="Switch Language">
             <span className={styles.flag}>
-                <Image src="/globe.svg" alt="Language" width={20} height={20} priority />
+                <Image src="/portfolio/globe.svg" alt="Language" width={20} height={20} priority />
             </span>
             <span className={styles.label}>
                 {language}
