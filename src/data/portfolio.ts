@@ -26,7 +26,7 @@ export const portfolioItems: PortfolioItem[] = [
             en: 'AI agent platform with mobile-friendly UX, a TypeScript framework, and persistent cloud workspaces (Docker containers, browser IDE, coding agent), plus observability and employee monitoring with usage caps',
             ru: 'Платформа AI-агентов с mobile-friendly UX, TypeScript-фреймворком и постоянными облачными workspace (Docker-контейнеры, IDE в браузере, кодинг-агент), а также observability и мониторинг сотрудников с лимитами (caps)',
         },
-        imageUrl: '/agentic-control.png',
+        imageUrl: '/portfolio/agentic-control.png',
         link: '#',
         tags: ['TypeScript', 'NestJS', 'React', 'Docker', 'Supabase', 'WebSocket', 'AI Agents', 'Multi-Agent', 'LLM', 'ACP', 'HITL', 'Anthropic'],
     },
